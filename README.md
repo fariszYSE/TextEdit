@@ -1,4 +1,4 @@
-this is v0.!, a very young project likely never to be finished. written by a 13 year old (fariszYSE) its purely because i.. hate modern notepad solutions. yet i still find vim too convoluted. feel free to contribute!
+this is v0.3!, a very young project likely never to be finished. written by a 13 year old (fariszYSE) its purely because i.. hate modern notepad solutions. yet i still find vim too convoluted. feel free to contribute!
 keep in mind i did almost everything. there is as little vibe coded code in this project
 a notepad inspired, very simple, lightweight text editor for x86. with the goal of being a simple text editor that can run on any 64 bit linux machine. written using curses cli. soon to have a gui. rows are the next feature on the list. now that i wiped windows in favour of purely using debian it will be linux focused. 
 
