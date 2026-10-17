@@ -25,7 +25,11 @@ def on_start(screen):
     curses.noecho()
     curses.cbreak()
     global enter_key_pressed, file_name, testgrid
-    file_name = "/home/farisz/programming/textedit/text.txt"
+    screen.addstr("Enter absolute path to file here: ")
+    screen.refresh()
+    curses.echo()
+    file_name = screen.getstr().decode("utf-8")
+    screen.refresh()
     enter_key_pressed = False
     # TODO: This currently flattens all rows into one character list.
     # The row system should eventually preserve file[row].
